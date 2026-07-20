@@ -16,7 +16,8 @@ source lib/validator.sh
 case "$COMMAND" in
 
 dashboard)
-	echo "Dashboard mode selected"
+	source modules/dashboard.sh
+	show_dashboard
 	;;
 
 monitor)

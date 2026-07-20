@@ -6,3 +6,12 @@
 [SUCCESS] 2026-07-20 18:54:20 git command exists
 [SUCCESS] 2026-07-20 18:54:20 docker command exists
 [ERROR] 2026-07-20 18:54:20 python command does not exist
+[INFO] 2026-07-20 19:39:23 Loading SentinelOps Dashboard...
+[SUCCESS] 2026-07-20 19:39:23 docker command exists
+[SUCCESS] 2026-07-20 19:39:24 Docker is installed and running.
+[INFO] 2026-07-20 19:39:40 Loading SentinelOps Dashboard...
+[SUCCESS] 2026-07-20 19:39:40 docker command exists
+[SUCCESS] 2026-07-20 19:39:40 Docker is installed and running.
+[INFO] 2026-07-20 19:41:28 Loading SentinelOps Dashboard...
+[SUCCESS] 2026-07-20 19:41:28 docker command exists
+[SUCCESS] 2026-07-20 19:41:29 Docker is installed and running.
