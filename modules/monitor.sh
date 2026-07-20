@@ -33,6 +33,16 @@ show_disk_info() {
     echo
 }
 
+show_process_info() {
+
+    echo "=================Process Information========"
+
+    ps -eo pid,user,%mem,comm --sort=-%mem | head -10
+
+    echo
+
+}
+
 show_network_info() {
 
     echo "=================== Network ================="
@@ -80,6 +90,7 @@ show_monitor() {
     show_cpu_info
     show_memory_info
     show_disk_info
+    show_process_info
     show_network_info
     show_docker_info
 
