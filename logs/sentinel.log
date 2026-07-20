@@ -15,3 +15,7 @@
 [INFO] 2026-07-20 19:41:28 Loading SentinelOps Dashboard...
 [SUCCESS] 2026-07-20 19:41:28 docker command exists
 [SUCCESS] 2026-07-20 19:41:29 Docker is installed and running.
+[INFO] 2026-07-20 19:59:45 Loading System Monitor...
+[SUCCESS] 2026-07-20 19:59:45 Internet Connection Available
+[SUCCESS] 2026-07-20 19:59:45 docker command exists
+[SUCCESS] 2026-07-20 19:59:47 Docker daemon is running.

@@ -21,7 +21,8 @@ dashboard)
 	;;
 
 monitor)
-	echo "Monitor mode selected"
+	source modules/monitor.sh
+	show_monitor
 	;;
 
 backup)
