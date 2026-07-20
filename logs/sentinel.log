@@ -1,0 +1,8 @@
+[INFO] 2026-07-20 18:23:42 Starting SentinelOps...
+[SUCCESS] 2026-07-20 18:23:42 Backup completed successfully.
+[WARNING] 2026-07-20 18:23:42 Disk usage is above 80%.
+[ERROR] 2026-07-20 18:23:42 Docker is not running.
+[SUCCESS] 2026-07-20 18:48:08 git command exists
+[SUCCESS] 2026-07-20 18:54:20 git command exists
+[SUCCESS] 2026-07-20 18:54:20 docker command exists
+[ERROR] 2026-07-20 18:54:20 python command does not exist
