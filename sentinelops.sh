@@ -13,6 +13,11 @@ source lib/logger.sh
 source lib/helpers.sh
 source lib/validator.sh
 
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BACKUP_DIR="$PROJECT_ROOT/backups"
+LOG_DIR="$PROJECT_ROOT/logs"
+
+
 case "$COMMAND" in
 
 dashboard)
@@ -26,7 +31,28 @@ monitor)
 	;;
 
 backup)
-	echo "Backup module selected"
+	source modules/backup.sh
+	case $2 in
+		create)
+			create_backup "$3"
+			;;
+		list)
+			list_backups
+			;;
+		restore)
+			restore_backup "$3"
+			;;
+		delete)
+			delete_backup "$3"
+			;;
+		*)
+		echo "Usage:"
+            	echo "./sentinelops.sh backup create <directory>"
+            	echo "./sentinelops.sh backup list"
+            	echo "./sentinelops.sh backup restore <backup>"
+            	echo "./sentinelops.sh backup delete <backup>"
+		;;
+	esac
 	;;
 
 docker)
